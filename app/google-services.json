@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "728908028259",
+    "firebase_url": "https://safetybus-ceb23.firebaseio.com",
+    "project_id": "safetybus-ceb23",
+    "storage_bucket": "safetybus-ceb23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728908028259:android:86734f4ed443a8c6",
+        "android_client_info": {
+          "package_name": "com.safetybus.pc.safetybus2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728908028259-vvmn3c7v873f51tv3ishrvvk427ai16b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.safetybus.pc.safetybus2",
+            "certificate_hash": "b0d020ecf7d852946fecb5bc5f740d81d3d5cc7a"
+          }
+        },
+        {
+          "client_id": "728908028259-t2a3pghg27otao7rd0jtn29o6tuk7413.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxsyFLxdMS2QqFkYJC7NsoG3whEOcRZPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728908028259-t2a3pghg27otao7rd0jtn29o6tuk7413.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

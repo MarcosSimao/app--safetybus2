@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A2BE2"
+    tools:context=".alterar_cadastro">
+
+    <EditText
+        android:id="@+id/btnSenhanova"
+        android:layout_width="363dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="244dp"
+        android:layout_weight="1"
+        android:background="#F5FFFA"
+        android:ems="10"
+        android:hint="Digite sua senha novamente"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/btnRepetesenha"
+        android:layout_width="363dp"
+        android:layout_height="52dp"
+        android:layout_weight="1"
+        android:background="#F5FFFA"
+        android:ems="10"
+        android:hint="nova senha"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="155dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ButtonAlterarAlterarCadastro"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+
+
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Alterar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="338dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ButtonVoltarAlterarCadastro"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
+        android:backgroundTint="?attr/colorError"
+        android:text="Voltar"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="338dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

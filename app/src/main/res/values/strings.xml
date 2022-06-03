@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">safetybus2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_login">login</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="senha">esqueceu a senha!</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="logar">Logar</string>
+    <string name="title_activity_seletor">seletor</string>
+    <string name="mapa_seletor_m">Mapa</string>
+    <string name="action_settings">Settings</string>
+    <string name="voltar">Voltar</string>
+    <string name="cantatoswhatsap">CantatosWhatsap</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="remover">Remover</string>
+    <string name="proximo">Proximo</string>
+    <string name="email">EMAIL:</string>
+    <string name="alertaMensagem">Ola , o cadastro a seguir ,Serve
+para vc cadastrar o contato que vc queira enviar o help
+dando a ele todo acesso ao seu Celular ,para poder rastrear
+e criar alguns eventos para o seu beneficio...
+por favor coloque um contato  que vc possa confiar. e caso
+voce entendeu clique em avançar... Caso nao tenha entendido feche e
+entre no nosso site WWW.safetybus.com</string>
+</resources>

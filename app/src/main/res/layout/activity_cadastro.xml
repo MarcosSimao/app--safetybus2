@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="#000000"
+    android:background="#8A2BE2"
+    tools:context=".cadastro">
+
+
+    <EditText
+
+        android:id="@+id/EditNomeCadastro"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="NOME"
+        android:inputType="textCapSentences"
+        android:textAlignment="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditEmailCadastro"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="#ffffff"
+
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/EditNomeCadastro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EditNomeCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/EditNomeCadastro" />
+
+    <EditText
+        android:id="@+id/EditSenhaCadastro"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="#ffffff"
+        android:ems="15"
+        android:hint="SENHA"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/EditEmailCadastro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EditEmailCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/EditEmailCadastro" />
+
+
+    <EditText
+        android:id="@+id/editSenhaCadastro2"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="96dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="#ffffff"
+        android:ems="15"
+        android:hint="SENHA"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/EditEmailCadastro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EditEmailCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/EditEmailCadastro" />
+
+
+    <Button
+        android:id="@+id/ButtonVoltarCadastro"
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="116dp"
+        android:background="#FF0000"
+        android:text="@string/voltar"
+        app:layout_constraintEnd_toEndOf="@+id/EditSenhaCadastro"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toEndOf="@+id/ButtonCadastrarCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/EditSenhaCadastro" />
+
+
+    <Button
+        android:id="@+id/ButtonCadastrarCadastro"
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="116dp"
+        android:background="#FF0000"
+        android:text="CADASTRAR"
+        app:layout_constraintStart_toStartOf="@+id/EditSenhaCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/EditSenhaCadastro" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

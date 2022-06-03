@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="#000000"
+    android:background="#8A2BE2"
+    tools:context=".cadastro">
+
+
+    <EditText
+
+        android:id="@+id/ContatoNomeCadastro"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="172dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="NOME"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ContatoEmailCadastro"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:text=" EMAIL@email.com "
+        android:textColor="#000"
+
+
+        app:layout_constraintEnd_toEndOf="@+id/ContatoNomeCadastro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ContatoNomeCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/ContatoNomeCadastro" />
+
+    <EditText
+        android:id="@+id/ContatoNumero"
+        android:layout_width="372dp"
+        android:layout_height="43dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="(88)98888-8888"
+        android:inputType="phone"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+
+    <Button
+        android:id="@+id/ButtonVoltarCadastro"
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="120dp"
+        android:background="#FF0000"
+
+        android:text="@string/voltar"
+        app:layout_constraintStart_toEndOf="@+id/ButtonContatocadastro"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="366dp" />
+
+
+    <Button
+        android:id="@+id/ButtonContatocadastro"
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        android:background="#FF0000"
+        android:text="CADASTRAR"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+
+</android.support.constraint.ConstraintLayout>

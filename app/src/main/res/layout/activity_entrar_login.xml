@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela"
+    tools:context="com.safetybus.pc.safetybus2.EntrarLogin">
+
+
+    <EditText
+        android:id="@+id/EntrarEmail"
+        android:layout_width="369dp"
+        android:layout_height="43dp"
+        android:hint="EMAIL"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="10dp"
+
+        android:textColor="#000000"
+
+        android:background="#Fff"
+        tools:layout_editor_absoluteY="178dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/EntrarSenha"
+        android:layout_width="364dp"
+        android:layout_height="43dp"
+        android:ems="15"
+        android:hint="SENHA"
+
+        android:textColor="#000000"
+
+        android:background="#Fff"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <ImageButton
+        android:id="@+id/btnLogar"
+        android:layout_width="186dp"
+        android:layout_height="57dp"
+
+
+        android:src="@drawable/brn"
+
+
+        tools:ignore="MissingConstraints"
+
+
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:id="@+id/TextAlterarLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Deseja alterar sua senha?"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#F5FFFA"
+
+        android:textSize="@dimen/activity_horizontal_margin"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="402dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TextCadastroLogin"
+        android:layout_width="221dp"
+        android:layout_height="27dp"
+        android:text="Faça seu cadastro!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textColor="#F5FFFA"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="443dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

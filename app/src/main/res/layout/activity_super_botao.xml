@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#8A2BE2"
+    tools:context="com.safetybus.pc.safetybus2.SuperBotaoActivity">
+
+    <Button
+        android:id="@+id/SupetBtn"
+        android:layout_width="157dp"
+        android:layout_height="195dp"
+        android:text="HELP"
+        android:background="#FF0000"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="113dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nomeDousuario"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:text="TextView"
+        android:background="#fff"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="43dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

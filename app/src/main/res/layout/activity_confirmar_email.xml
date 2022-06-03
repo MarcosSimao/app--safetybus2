@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A2BE2"
+    tools:context="com.safetybus.pc.safetybus2.ConfirmarEmailActivity">
+
+    <EditText
+        android:id="@+id/VR_email"
+        android:layout_width="354dp"
+        android:layout_height="55dp"
+        android:background="#F5FFFA"
+        android:ems="10"
+        android:hint="coloque seu email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+
+    <Button
+        android:id="@+id/BTN_verificar"
+        android:layout_width="164dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="verificar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/fechar"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="X"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

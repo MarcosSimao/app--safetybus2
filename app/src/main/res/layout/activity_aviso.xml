@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="#F5FFFA"
+    android:background="#8A2BE2"
+    tools:context="com.safetybus.pc.safetybus2.AvisoActivity">
+
+    <TextView
+        android:id="@+id/alerta"
+        android:layout_width="346dp"
+        android:layout_height="310dp"
+        android:text="@string/alertaMensagem"
+        android:textSize="20dp"
+        android:textColor="#000000"
+
+        android:background="#Fff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/btnAvancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="avançar"
+        android:background="#FF0000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <Button
+        android:id="@+id/btnFechar"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:background="@android:drawable/btn_dialog"
+        android:backgroundTint="#FF0000"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

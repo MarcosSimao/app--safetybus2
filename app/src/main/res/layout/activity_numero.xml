@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".numero">
+
+    <EditText
+        android:id="@+id/EditContatoNumero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CodigoPais+DDD+Numero"
+        android:inputType="phone"
+        android:maxLength="20"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/LabelWhatsap"
+        app:layout_constraintStart_toStartOf="@+id/LabelWhatsap"
+        app:layout_constraintTop_toBottomOf="@+id/LabelWhatsap" />
+
+    <TextView
+        android:id="@+id/LabelWhatsap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/cantatoswhatsap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextEmailNumero"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/email"
+        app:layout_constraintEnd_toEndOf="@+id/EditContatoNumero"
+        app:layout_constraintStart_toStartOf="@+id/EditContatoNumero"
+        app:layout_constraintTop_toBottomOf="@+id/EditContatoNumero" />
+
+    <ListView
+        android:id="@+id/ListContatosNumeros"
+        android:layout_width="379dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="88dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ButtonListaNumero"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonListaNumero" />
+
+    <EditText
+        android:id="@+id/EditEmailNumero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Seu email"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/TextEmailNumero"
+        app:layout_constraintStart_toStartOf="@+id/TextEmailNumero"
+        app:layout_constraintTop_toBottomOf="@+id/TextEmailNumero" />
+
+    <Button
+        android:id="@+id/ButtonListaNumero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Listar"
+        app:layout_constraintEnd_toEndOf="@+id/EditEmailNumero"
+        app:layout_constraintStart_toStartOf="@+id/EditEmailNumero"
+        app:layout_constraintTop_toBottomOf="@+id/EditEmailNumero" />
+
+</android.support.constraint.ConstraintLayout>
